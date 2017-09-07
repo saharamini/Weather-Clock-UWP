@@ -1,5 +1,10 @@
 # Fancy Clock and Weather display - Universal Windows Platform (UWP) app
 
+![1](https://user-images.githubusercontent.com/30874526/30176510-adfc3082-93d0-11e7-9bf4-ec80abf84719.jpg)
+![2](https://user-images.githubusercontent.com/30874526/30176511-afc94ae4-93d0-11e7-9a91-5e76de09ee00.jpg)
+![3](https://user-images.githubusercontent.com/30874526/30176514-b1b0ac44-93d0-11e7-9dd9-1200a0249ab3.jpg)
+![4](https://user-images.githubusercontent.com/30874526/30176517-b3240472-93d0-11e7-9907-d7b52b8d8792.jpg)
+
 A simple Weather app on Windows 10 IoT Core device.
 
 Components
