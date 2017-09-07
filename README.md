@@ -1,4 +1,4 @@
-#Fancy Clock and Weather display - Universal Windows Platform (UWP) app
+Fancy Clock and Weather display - Universal Windows Platform (UWP) app
 
 A simple Weather app on Windows 10 IoT Core device.
 
