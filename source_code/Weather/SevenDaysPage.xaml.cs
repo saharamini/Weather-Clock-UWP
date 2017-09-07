@@ -35,8 +35,8 @@ namespace Weather
             var position = await LocationManager.GetPosition();
             if (position == null)
             {
-                // Watertown
-                weather = await SevenDays.GetWeather_SevenDays(42.36214755982617, -71.148844559773557);
+                // Your Latitude and Longitude
+                weather = await WeatherMapProxy.GetWeather("Your Latitude", "Your Longitude");
             }
             else
             {
