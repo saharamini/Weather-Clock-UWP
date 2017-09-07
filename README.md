@@ -7,7 +7,7 @@
 
 A simple Weather app on Windows 10 IoT Core device.
 
-Components
+## Components
 You will need the following components :
 
 a Element 14 7" Pi Touchscreen LCD Display (http://www.microcenter.com/product/454804/7_Pi_Touchscreen_LCD_Display)
