@@ -1,0 +1,59 @@
+﻿<Page
+    x:Class="Weather.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Weather"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" Loaded="Page_Loaded">
+    
+    <StackPanel Background="#000055">
+        <StackPanel Background="White" Orientation="Horizontal" Margin="0,10,0,0">
+            <Button Name="CurrentWeatherButton" Content="Weather" Background="White" Foreground="#000055" Margin="0,0,20,0" Click="CurrentWeatherButton_Click" FontFamily="Berlin Sans FB"/>
+            <Button Name="HourelyWeatherkButton" Content="Hourely" Background="White" Foreground="#000055" Margin="0,0,20,0" Click="HourelyWeatherkButton_Click"  FontFamily="Berlin Sans FB" />
+            <Button Name="SevenDaysWeatherButton" Content="7 Days" Background="White" Foreground="#000055" Margin="0,0,20,0" Click="SevenDaysWeatherButton_Click"  FontFamily="Berlin Sans FB" />
+            <Button Name="ClockButton" Content="Clock" Background="White" Foreground="#000055" Margin="0,0,20,0" Click="ClockButton_Click"  FontFamily="Berlin Sans FB" />
+        </StackPanel>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*" />
+                <ColumnDefinition Width="1*" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*" />
+            </Grid.RowDefinitions>
+
+            <StackPanel VerticalAlignment="Center" Grid.Row="0" Grid.Column="0">
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,55,0,0">
+                    <TextBlock Name="WindSpeedTextBlock" FontSize="30" Foreground="White" HorizontalAlignment="Center"  FontFamily="Berlin Sans FB" />
+                    <TextBlock Name="WindDirectionTextBlock" FontSize="30" Foreground="White" HorizontalAlignment="Center"  Margin="5,0,5,0" FontFamily="Berlin Sans FB" />
+                    <Image Name="WindDirectionImage" Height="24" Width="24" HorizontalAlignment="Center" />
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,20,0,0">
+                    <TextBlock Text="Humidity: " Margin="0,10,0,0" FontSize="30" Foreground="White" FontFamily="Berlin Sans FB" HorizontalAlignment="Center"/>
+                    <TextBlock Name="HumidityTextBlock" Margin="5,10,0,0"  FontSize="30" Foreground="White" HorizontalAlignment="Center"  FontFamily="Berlin Sans FB" />
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,20,0,0">
+                    <TextBlock Text="Sunrise: " Margin="0,10,0,0" FontSize="30" Foreground="White" FontFamily="Berlin Sans FB" HorizontalAlignment="Center"/>
+                    <TextBlock Name="SunriseTextBlock" Margin="5,10,0,0"  FontSize="30" Foreground="White" HorizontalAlignment="Center"  FontFamily="Berlin Sans FB" />
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,20,0,0">
+                    <TextBlock Text="Sunset: " Margin="0,10,0,0" FontSize="30" Foreground="White" FontFamily="Berlin Sans FB" HorizontalAlignment="Center" />
+                    <TextBlock Name="SunsetTextBlock" Margin="5,10,0,10"  FontSize="30" Foreground="White" HorizontalAlignment="Center"  FontFamily="Berlin Sans FB" />
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,20,0,0">
+                    <TextBlock Name="TempMinTextBlock" FontSize="30" Foreground="#2ecbff" FontFamily="Berlin Sans FB" />
+                    <TextBlock Name="TempMaxTextBlock" FontSize="30" Foreground="#ff622e" FontFamily="Berlin Sans FB" Margin="20,0,0,0"/>
+                </StackPanel>
+            </StackPanel>
+
+            <StackPanel VerticalAlignment="Center" Grid.Row="0" Grid.Column="1" Margin="-80,30,0,0">
+                <Image Name="ResultImage" Height="200" Width="200" HorizontalAlignment="Center"/>
+                <TextBlock Name="TempTextBlock" FontSize="55" Foreground="White" HorizontalAlignment="Center"  FontFamily="Berlin Sans FB" />
+                <TextBlock Name="DescriptionTextBlock" FontSize="44" Foreground="White" HorizontalAlignment="Center"  FontFamily="Berlin Sans FB" />
+                <TextBlock Name="LocationTextBlock" FontSize="26" Foreground="White" HorizontalAlignment="Center"  FontFamily="Berlin Sans FB" />
+            </StackPanel>
+        </Grid>
+    </StackPanel>
+
+</Page>

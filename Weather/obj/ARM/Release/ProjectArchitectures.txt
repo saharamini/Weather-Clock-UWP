@@ -1,0 +1,1 @@
+D:\Windows Universal\Weather\Weather\Weather.csproj;arm

@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="Sahar-Weather" version="1.0" primary="true">
+		<Qualifiers>
+			<AlternateForm>UNPLATED</AlternateForm>
+			<Scale>200</Scale>
+			<TargetSize>24</TargetSize>
+		</Qualifiers>
+		<ResourceMapSubtree name="Files">
+			<NamedResource name="App.xbf" uri="ms-resource://Sahar-Weather/Files/App.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ClockPage.xbf" uri="ms-resource://Sahar-Weather/Files/ClockPage.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="HourelyPage.xbf" uri="ms-resource://Sahar-Weather/Files/HourelyPage.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="MainPage.xbf" uri="ms-resource://Sahar-Weather/Files/MainPage.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="SevenDaysPage.xbf" uri="ms-resource://Sahar-Weather/Files/SevenDaysPage.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Weather.xr.xml" uri="ms-resource://Sahar-Weather/Files/Weather.xr.xml">
+				<Candidate type="Path">
+					<Value>Weather.xr.xml</Value>
+				</Candidate>
+			</NamedResource>
+			<ResourceMapSubtree name="Assets">
+				<NamedResource name="LockScreenLogo.png" uri="ms-resource://Sahar-Weather/Files/Assets/LockScreenLogo.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\LockScreenLogo.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SplashScreen.png" uri="ms-resource://Sahar-Weather/Files/Assets/SplashScreen.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\SplashScreen.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square150x150Logo.png" uri="ms-resource://Sahar-Weather/Files/Assets/Square150x150Logo.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\Square150x150Logo.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square44x44Logo.png" uri="ms-resource://Sahar-Weather/Files/Assets/Square44x44Logo.png">
+					<Candidate qualifiers="TargetSize-24, AlternateForm-UNPLATED" type="Path">
+						<Value>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</Value>
+					</Candidate>
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\Square44x44Logo.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="StoreLogo.png" uri="ms-resource://Sahar-Weather/Files/Assets/StoreLogo.png">
+					<Candidate type="Path">
+						<Value>Assets\StoreLogo.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Wide310x150Logo.png" uri="ms-resource://Sahar-Weather/Files/Assets/Wide310x150Logo.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\Wide310x150Logo.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<ResourceMapSubtree name="Navigation">
+					<NamedResource name="E.png" uri="ms-resource://Sahar-Weather/Files/Assets/Navigation/E.png">
+						<Candidate type="Path">
+							<Value>Assets\Navigation\E.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="ENE.png" uri="ms-resource://Sahar-Weather/Files/Assets/Navigation/ENE.png">
+						<Candidate type="Path">
+							<Value>Assets\Navigation\ENE.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="ESE.png" uri="ms-resource://Sahar-Weather/Files/Assets/Navigation/ESE.png">
+						<Candidate type="Path">
+							<Value>Assets\Navigation\ESE.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="N.png" uri="ms-resource://Sahar-Weather/Files/Assets/Navigation/N.png">
+						<Candidate type="Path">
+							<Value>Assets\Navigation\N.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="NE.png" uri="ms-resource://Sahar-Weather/Files/Assets/Navigation/NE.png">
+						<Candidate type="Path">
+							<Value>Assets\Navigation\NE.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="NNE.png" uri="ms-resource://Sahar-Weather/Files/Assets/Navigation/NNE.png">
+						<Candidate type="Path">
+							<Value>Assets\Navigation\NNE.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="NNW.png" uri="ms-resource://Sahar-Weather/Files/Assets/Navigation/NNW.png">
+						<Candidate type="Path">
+							<Value>Assets\Navigation\NNW.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="NW.png" uri="ms-resource://Sahar-Weather/Files/Assets/Navigation/NW.png">
+						<Candidate type="Path">
+							<Value>Assets\Navigation\NW.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="S.png" uri="ms-resource://Sahar-Weather/Files/Assets/Navigation/S.png">
+						<Candidate type="Path">
+							<Value>Assets\Navigation\S.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="SE.png" uri="ms-resource://Sahar-Weather/Files/Assets/Navigation/SE.png">
+						<Candidate type="Path">
+							<Value>Assets\Navigation\SE.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="SSE.png" uri="ms-resource://Sahar-Weather/Files/Assets/Navigation/SSE.png">
+						<Candidate type="Path">
+							<Value>Assets\Navigation\SSE.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="SSW.png" uri="ms-resource://Sahar-Weather/Files/Assets/Navigation/SSW.png">
+						<Candidate type="Path">
+							<Value>Assets\Navigation\SSW.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="SW.png" uri="ms-resource://Sahar-Weather/Files/Assets/Navigation/SW.png">
+						<Candidate type="Path">
+							<Value>Assets\Navigation\SW.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="W.png" uri="ms-resource://Sahar-Weather/Files/Assets/Navigation/W.png">
+						<Candidate type="Path">
+							<Value>Assets\Navigation\W.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="WNW.png" uri="ms-resource://Sahar-Weather/Files/Assets/Navigation/WNW.png">
+						<Candidate type="Path">
+							<Value>Assets\Navigation\WNW.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="WSW.png" uri="ms-resource://Sahar-Weather/Files/Assets/Navigation/WSW.png">
+						<Candidate type="Path">
+							<Value>Assets\Navigation\WSW.png</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+				<ResourceMapSubtree name="Weather">
+					<NamedResource name="01d.png" uri="ms-resource://Sahar-Weather/Files/Assets/Weather/01d.png">
+						<Candidate type="Path">
+							<Value>Assets\Weather\01d.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="01n.png" uri="ms-resource://Sahar-Weather/Files/Assets/Weather/01n.png">
+						<Candidate type="Path">
+							<Value>Assets\Weather\01n.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="02d.png" uri="ms-resource://Sahar-Weather/Files/Assets/Weather/02d.png">
+						<Candidate type="Path">
+							<Value>Assets\Weather\02d.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="02n.png" uri="ms-resource://Sahar-Weather/Files/Assets/Weather/02n.png">
+						<Candidate type="Path">
+							<Value>Assets\Weather\02n.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="03d.png" uri="ms-resource://Sahar-Weather/Files/Assets/Weather/03d.png">
+						<Candidate type="Path">
+							<Value>Assets\Weather\03d.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="03n.png" uri="ms-resource://Sahar-Weather/Files/Assets/Weather/03n.png">
+						<Candidate type="Path">
+							<Value>Assets\Weather\03n.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="04d.png" uri="ms-resource://Sahar-Weather/Files/Assets/Weather/04d.png">
+						<Candidate type="Path">
+							<Value>Assets\Weather\04d.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="04n.png" uri="ms-resource://Sahar-Weather/Files/Assets/Weather/04n.png">
+						<Candidate type="Path">
+							<Value>Assets\Weather\04n.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="09d.png" uri="ms-resource://Sahar-Weather/Files/Assets/Weather/09d.png">
+						<Candidate type="Path">
+							<Value>Assets\Weather\09d.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="09n.png" uri="ms-resource://Sahar-Weather/Files/Assets/Weather/09n.png">
+						<Candidate type="Path">
+							<Value>Assets\Weather\09n.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="10d.png" uri="ms-resource://Sahar-Weather/Files/Assets/Weather/10d.png">
+						<Candidate type="Path">
+							<Value>Assets\Weather\10d.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="10n.png" uri="ms-resource://Sahar-Weather/Files/Assets/Weather/10n.png">
+						<Candidate type="Path">
+							<Value>Assets\Weather\10n.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="11d.png" uri="ms-resource://Sahar-Weather/Files/Assets/Weather/11d.png">
+						<Candidate type="Path">
+							<Value>Assets\Weather\11d.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="11n.png" uri="ms-resource://Sahar-Weather/Files/Assets/Weather/11n.png">
+						<Candidate type="Path">
+							<Value>Assets\Weather\11n.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="13d.png" uri="ms-resource://Sahar-Weather/Files/Assets/Weather/13d.png">
+						<Candidate type="Path">
+							<Value>Assets\Weather\13d.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="13n.png" uri="ms-resource://Sahar-Weather/Files/Assets/Weather/13n.png">
+						<Candidate type="Path">
+							<Value>Assets\Weather\13n.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="50d.png" uri="ms-resource://Sahar-Weather/Files/Assets/Weather/50d.png">
+						<Candidate type="Path">
+							<Value>Assets\Weather\50d.png</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="50n.png" uri="ms-resource://Sahar-Weather/Files/Assets/Weather/50n.png">
+						<Candidate type="Path">
+							<Value>Assets\Weather\50n.png</Value>
+						</Candidate>
+					</NamedResource>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Properties">
+				<NamedResource name="Default.rd.xml" uri="ms-resource://Sahar-Weather/Files/Properties/Default.rd.xml">
+					<Candidate type="Path">
+						<Value>Properties\Default.rd.xml</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="WinMetadata">
+				<NamedResource name="Windows.winmd" uri="ms-resource://Sahar-Weather/Files/WinMetadata/Windows.winmd">
+					<Candidate type="Path">
+						<Value>WinMetadata\Windows.winmd</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>

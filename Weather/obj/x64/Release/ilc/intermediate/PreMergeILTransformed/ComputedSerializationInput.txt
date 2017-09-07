@@ -1,0 +1,3 @@
+"/t:Weather.RootObject1,Weather,json"
+"/t:Weather.RootObject2,Weather,json"
+"/t:Weather.RootObject,Weather,json"

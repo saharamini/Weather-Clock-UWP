@@ -1,0 +1,2 @@
+MainPackage=D:\Windows Universal\Weather\Weather\bin\ARM\Release\Weather_1.0.0.0_ARM.appx
+SymbolPackage=D:\Windows Universal\Weather\Weather\AppPackages\Weather_1.0.0.0_Test\Weather_1.0.0.0_ARM.appxsym

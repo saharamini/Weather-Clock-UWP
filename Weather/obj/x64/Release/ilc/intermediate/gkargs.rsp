@@ -1,0 +1,6 @@
+/In:"D:\Windows Universal\Weather\Weather\obj\x64\Release\ilc\in"
+/Lib:"D:\Windows Universal\Weather\Weather\obj\x64\Release\ilc\in"
+/Lib:"C:\Users\Sahar\.nuget\packages\microsoft.net.native.compiler\1.7.0\tools\x64\ilc\lib\Private"
+/WinMD:"D:\Windows Universal\Weather\Weather\obj\x64\Release\ilc\in\WinMetadata\Windows.winmd"
+/RdXmlPath:"C:\Users\Sahar\.nuget\packages\microsoft.net.native.compiler\1.7.0\tools\LibraryXML"
+/RunOnlyPreDR

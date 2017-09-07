@@ -1,0 +1,186 @@
+﻿<Page x:ConnectionId='1'
+    x:Class="Weather.HourelyPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Weather"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"                     >
+
+    <StackPanel Background="#000055">
+        <StackPanel Background="White" Orientation="Horizontal" Margin="0,10,0,0">
+            <Button x:ConnectionId='72' Name="CurrentWeatherButton" Content="Weather" Background="White" Foreground="#000055" Margin="0,0,20,0"                                    FontFamily="Berlin Sans FB"/>
+            <Button x:ConnectionId='73' Name="HourelyWeatherkButton" Content="Hourely" Background="White" Foreground="#000055" Margin="0,0,20,0"                                      FontFamily="Berlin Sans FB" />
+            <Button x:ConnectionId='74' Name="SevenDaysWeatherButton" Content="7 Days" Background="White" Foreground="#000055" Margin="0,0,20,0"                                       FontFamily="Berlin Sans FB" />
+            <Button x:ConnectionId='75' Name="ClockButton" Content="Clock" Background="White" Foreground="#000055" Margin="0,0,20,0"                            FontFamily="Berlin Sans FB" />
+        </StackPanel>
+        <StackPanel ScrollViewer.HorizontalScrollBarVisibility="Auto">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*" />
+                    <ColumnDefinition Width="1*" />
+                    <ColumnDefinition Width="1*" />
+                    <ColumnDefinition Width="1*" />
+                    <ColumnDefinition Width="1*" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="1*" />
+                    <RowDefinition Height="1*" />
+                </Grid.RowDefinitions>
+                <StackPanel VerticalAlignment="Center" Grid.Row="0" Grid.Column="0" Margin="10">
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                        <TextBlock x:ConnectionId='71' Name="TimeTextBlock0" FontSize="20" Foreground="White" FontFamily="Berlin Sans FB" />
+                    </StackPanel>
+                    <Image x:ConnectionId='65' Name="ResultImage0" Height="80" Width="80" HorizontalAlignment="Center" />
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                        <TextBlock x:ConnectionId='70' Name="TempTextBlock0" FontSize="22" Foreground="White" FontFamily="Berlin Sans FB" />
+                    </StackPanel>
+                    <TextBlock x:ConnectionId='66' Name="DescriptionTextBlock0" FontSize="16" Foreground="White" HorizontalAlignment="Center"  FontFamily="Berlin Sans FB" />
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                        <TextBlock x:ConnectionId='67' Name="WindSpeedTextBlock0" FontSize="16" Foreground="White" HorizontalAlignment="Center"  FontFamily="Berlin Sans FB" />
+                        <TextBlock x:ConnectionId='68' Name="WindDirectionTextBlock0" FontSize="16" Foreground="White" HorizontalAlignment="Center"  Margin="5,0,5,0" FontFamily="Berlin Sans FB" />
+                        <Image x:ConnectionId='69' Name="WindDirectionImage0" Height="16" Width="16" HorizontalAlignment="Center" />
+                    </StackPanel>
+                </StackPanel>
+                <StackPanel VerticalAlignment="Center" Grid.Row="0" Grid.Column="1" Margin="10">
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                        <TextBlock x:ConnectionId='64' Name="TimeTextBlock1" FontSize="20" Foreground="White" FontFamily="Berlin Sans FB" />
+                    </StackPanel>
+                    <Image x:ConnectionId='58' Name="ResultImage1" Height="80" Width="80" HorizontalAlignment="Center" />
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                        <TextBlock x:ConnectionId='63' Name="TempTextBlock1" FontSize="22" Foreground="White" FontFamily="Berlin Sans FB" />
+                    </StackPanel>
+                    <TextBlock x:ConnectionId='59' Name="DescriptionTextBlock1" FontSize="16" Foreground="White" HorizontalAlignment="Center"  FontFamily="Berlin Sans FB" />
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                        <TextBlock x:ConnectionId='60' Name="WindSpeedTextBlock1" FontSize="16" Foreground="White" HorizontalAlignment="Center"  FontFamily="Berlin Sans FB" />
+                        <TextBlock x:ConnectionId='61' Name="WindDirectionTextBlock1" FontSize="16" Foreground="White" HorizontalAlignment="Center"  Margin="5,0,5,0" FontFamily="Berlin Sans FB" />
+                        <Image x:ConnectionId='62' Name="WindDirectionImage1" Height="16" Width="16" HorizontalAlignment="Center" />
+                    </StackPanel>
+                </StackPanel>
+                <StackPanel VerticalAlignment="Center" Grid.Row="0" Grid.Column="2" Margin="10">
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                        <TextBlock x:ConnectionId='57' Name="TimeTextBlock2" FontSize="20" Foreground="White" FontFamily="Berlin Sans FB" />
+                    </StackPanel>
+                    <Image x:ConnectionId='51' Name="ResultImage2" Height="80" Width="80" HorizontalAlignment="Center" />
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                        <TextBlock x:ConnectionId='56' Name="TempTextBlock2" FontSize="22" Foreground="White" FontFamily="Berlin Sans FB" />
+                    </StackPanel>
+                    <TextBlock x:ConnectionId='52' Name="DescriptionTextBlock2" FontSize="16" Foreground="White" HorizontalAlignment="Center"  FontFamily="Berlin Sans FB" />
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                        <TextBlock x:ConnectionId='53' Name="WindSpeedTextBlock2" FontSize="16" Foreground="White" HorizontalAlignment="Center"  FontFamily="Berlin Sans FB" />
+                        <TextBlock x:ConnectionId='54' Name="WindDirectionTextBlock2" FontSize="16" Foreground="White" HorizontalAlignment="Center"  Margin="5,0,5,0" FontFamily="Berlin Sans FB" />
+                        <Image x:ConnectionId='55' Name="WindDirectionImage2" Height="16" Width="16" HorizontalAlignment="Center" />
+                    </StackPanel>
+                </StackPanel>
+                <StackPanel VerticalAlignment="Center" Grid.Row="0" Grid.Column="3" Margin="10">
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                        <TextBlock x:ConnectionId='50' Name="TimeTextBlock3" FontSize="20" Foreground="White" FontFamily="Berlin Sans FB" />
+                    </StackPanel>
+                    <Image x:ConnectionId='44' Name="ResultImage3" Height="80" Width="80" HorizontalAlignment="Center" />
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                        <TextBlock x:ConnectionId='49' Name="TempTextBlock3" FontSize="22" Foreground="White" FontFamily="Berlin Sans FB" />
+                    </StackPanel>
+                    <TextBlock x:ConnectionId='45' Name="DescriptionTextBlock3" FontSize="16" Foreground="White" HorizontalAlignment="Center"  FontFamily="Berlin Sans FB" />
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                        <TextBlock x:ConnectionId='46' Name="WindSpeedTextBlock3" FontSize="16" Foreground="White" HorizontalAlignment="Center"  FontFamily="Berlin Sans FB" />
+                        <TextBlock x:ConnectionId='47' Name="WindDirectionTextBlock3" FontSize="16" Foreground="White" HorizontalAlignment="Center"  Margin="5,0,5,0" FontFamily="Berlin Sans FB" />
+                        <Image x:ConnectionId='48' Name="WindDirectionImage3" Height="16" Width="16" HorizontalAlignment="Center" />
+                    </StackPanel>
+                </StackPanel>
+                <StackPanel VerticalAlignment="Center" Grid.Row="0" Grid.Column="4" Margin="10">
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                        <TextBlock x:ConnectionId='43' Name="TimeTextBlock4" FontSize="20" Foreground="White" FontFamily="Berlin Sans FB" />
+                    </StackPanel>
+                    <Image x:ConnectionId='37' Name="ResultImage4" Height="80" Width="80" HorizontalAlignment="Center" />
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                        <TextBlock x:ConnectionId='42' Name="TempTextBlock4" FontSize="22" Foreground="White" FontFamily="Berlin Sans FB" />
+                    </StackPanel>
+                    <TextBlock x:ConnectionId='38' Name="DescriptionTextBlock4" FontSize="16" Foreground="White" HorizontalAlignment="Center"  FontFamily="Berlin Sans FB" />
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                        <TextBlock x:ConnectionId='39' Name="WindSpeedTextBlock4" FontSize="16" Foreground="White" HorizontalAlignment="Center"  FontFamily="Berlin Sans FB" />
+                        <TextBlock x:ConnectionId='40' Name="WindDirectionTextBlock4" FontSize="16" Foreground="White" HorizontalAlignment="Center"  Margin="5,0,5,0" FontFamily="Berlin Sans FB" />
+                        <Image x:ConnectionId='41' Name="WindDirectionImage4" Height="16" Width="16" HorizontalAlignment="Center" />
+                    </StackPanel>
+                </StackPanel>
+                <StackPanel VerticalAlignment="Center" Grid.Row="1" Grid.Column="0" Margin="10">
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                        <TextBlock x:ConnectionId='36' Name="TimeTextBlock5" FontSize="20" Foreground="White" FontFamily="Berlin Sans FB" />
+                    </StackPanel>
+                    <Image x:ConnectionId='30' Name="ResultImage5" Height="80" Width="80" HorizontalAlignment="Center" />
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                        <TextBlock x:ConnectionId='35' Name="TempTextBlock5" FontSize="22" Foreground="White" FontFamily="Berlin Sans FB" />
+                    </StackPanel>
+                    <TextBlock x:ConnectionId='31' Name="DescriptionTextBlock5" FontSize="16" Foreground="White" HorizontalAlignment="Center"  FontFamily="Berlin Sans FB" />
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                        <TextBlock x:ConnectionId='32' Name="WindSpeedTextBlock5" FontSize="16" Foreground="White" HorizontalAlignment="Center"  FontFamily="Berlin Sans FB" />
+                        <TextBlock x:ConnectionId='33' Name="WindDirectionTextBlock5" FontSize="16" Foreground="White" HorizontalAlignment="Center"  Margin="5,0,5,0" FontFamily="Berlin Sans FB" />
+                        <Image x:ConnectionId='34' Name="WindDirectionImage5" Height="16" Width="16" HorizontalAlignment="Center" />
+                    </StackPanel>
+                </StackPanel>
+                <StackPanel VerticalAlignment="Center" Grid.Row="1" Grid.Column="1" Margin="10">
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                        <TextBlock x:ConnectionId='29' Name="TimeTextBlock6" FontSize="20" Foreground="White" FontFamily="Berlin Sans FB" />
+                    </StackPanel>
+                    <Image x:ConnectionId='23' Name="ResultImage6" Height="80" Width="80" HorizontalAlignment="Center" />
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                        <TextBlock x:ConnectionId='28' Name="TempTextBlock6" FontSize="22" Foreground="White" FontFamily="Berlin Sans FB" />
+                    </StackPanel>
+                    <TextBlock x:ConnectionId='24' Name="DescriptionTextBlock6" FontSize="16" Foreground="White" HorizontalAlignment="Center"  FontFamily="Berlin Sans FB" />
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                        <TextBlock x:ConnectionId='25' Name="WindSpeedTextBlock6" FontSize="16" Foreground="White" HorizontalAlignment="Center"  FontFamily="Berlin Sans FB" />
+                        <TextBlock x:ConnectionId='26' Name="WindDirectionTextBlock6" FontSize="16" Foreground="White" HorizontalAlignment="Center"  Margin="5,0,5,0" FontFamily="Berlin Sans FB" />
+                        <Image x:ConnectionId='27' Name="WindDirectionImage6" Height="16" Width="16" HorizontalAlignment="Center" />
+                    </StackPanel>
+                </StackPanel>
+                <StackPanel VerticalAlignment="Center" Grid.Row="1" Grid.Column="2" Margin="10">
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                        <TextBlock x:ConnectionId='22' Name="TimeTextBlock7" FontSize="20" Foreground="White" FontFamily="Berlin Sans FB" />
+                    </StackPanel>
+                    <Image x:ConnectionId='16' Name="ResultImage7" Height="80" Width="80" HorizontalAlignment="Center" />
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                        <TextBlock x:ConnectionId='21' Name="TempTextBlock7" FontSize="22" Foreground="White" FontFamily="Berlin Sans FB" />
+                    </StackPanel>
+                    <TextBlock x:ConnectionId='17' Name="DescriptionTextBlock7" FontSize="16" Foreground="White" HorizontalAlignment="Center"  FontFamily="Berlin Sans FB" />
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                        <TextBlock x:ConnectionId='18' Name="WindSpeedTextBlock7" FontSize="16" Foreground="White" HorizontalAlignment="Center"  FontFamily="Berlin Sans FB" />
+                        <TextBlock x:ConnectionId='19' Name="WindDirectionTextBlock7" FontSize="16" Foreground="White" HorizontalAlignment="Center"  Margin="5,0,5,0" FontFamily="Berlin Sans FB" />
+                        <Image x:ConnectionId='20' Name="WindDirectionImage7" Height="16" Width="16" HorizontalAlignment="Center" />
+                    </StackPanel>
+                </StackPanel>
+                <StackPanel VerticalAlignment="Center" Grid.Row="1" Grid.Column="3" Margin="10">
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                        <TextBlock x:ConnectionId='15' Name="TimeTextBlock8" FontSize="20" Foreground="White" FontFamily="Berlin Sans FB" />
+                    </StackPanel>
+                    <Image x:ConnectionId='9' Name="ResultImage8" Height="80" Width="80" HorizontalAlignment="Center" />
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                        <TextBlock x:ConnectionId='14' Name="TempTextBlock8" FontSize="22" Foreground="White" FontFamily="Berlin Sans FB" />
+                    </StackPanel>
+                    <TextBlock x:ConnectionId='10' Name="DescriptionTextBlock8" FontSize="16" Foreground="White" HorizontalAlignment="Center"  FontFamily="Berlin Sans FB" />
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                        <TextBlock x:ConnectionId='11' Name="WindSpeedTextBlock8" FontSize="16" Foreground="White" HorizontalAlignment="Center"  FontFamily="Berlin Sans FB" />
+                        <TextBlock x:ConnectionId='12' Name="WindDirectionTextBlock8" FontSize="16" Foreground="White" HorizontalAlignment="Center"  Margin="5,0,5,0" FontFamily="Berlin Sans FB" />
+                        <Image x:ConnectionId='13' Name="WindDirectionImage8" Height="16" Width="16" HorizontalAlignment="Center" />
+                    </StackPanel>
+                </StackPanel>
+                <StackPanel VerticalAlignment="Center" Grid.Row="1" Grid.Column="4" Margin="10">
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                        <TextBlock x:ConnectionId='8' Name="TimeTextBlock9" FontSize="20" Foreground="White" FontFamily="Berlin Sans FB" />
+                    </StackPanel>
+                    <Image x:ConnectionId='2' Name="ResultImage9" Height="80" Width="80" HorizontalAlignment="Center" />
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                        <TextBlock x:ConnectionId='7' Name="TempTextBlock9" FontSize="22" Foreground="White" FontFamily="Berlin Sans FB" />
+                    </StackPanel>
+                    <TextBlock x:ConnectionId='3' Name="DescriptionTextBlock9" FontSize="16" Foreground="White" HorizontalAlignment="Center"  FontFamily="Berlin Sans FB" />
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                        <TextBlock x:ConnectionId='4' Name="WindSpeedTextBlock9" FontSize="16" Foreground="White" HorizontalAlignment="Center"  FontFamily="Berlin Sans FB" />
+                        <TextBlock x:ConnectionId='5' Name="WindDirectionTextBlock9" FontSize="16" Foreground="White" HorizontalAlignment="Center"  Margin="5,0,5,0" FontFamily="Berlin Sans FB" />
+                        <Image x:ConnectionId='6' Name="WindDirectionImage9" Height="16" Width="16" HorizontalAlignment="Center" />
+                    </StackPanel>
+                </StackPanel>
+            </Grid>
+        </StackPanel>
+        
+    </StackPanel>
+    
+</Page>
+
