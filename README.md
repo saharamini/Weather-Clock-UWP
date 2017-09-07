@@ -1,4 +1,4 @@
-# Fancy Clock and Weather display - Universal Windows Platform (UWP) app
+# Fancy Clock and Weather display - Universal Windows Platform (UWP) app on Raspberry Pi
 
 ![1](https://user-images.githubusercontent.com/30874526/30176510-adfc3082-93d0-11e7-9bf4-ec80abf84719.jpg)
 ![2](https://user-images.githubusercontent.com/30874526/30176511-afc94ae4-93d0-11e7-9a91-5e76de09ee00.jpg)
